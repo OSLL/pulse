@@ -8,6 +8,6 @@ TESTS=`find ./tst/ -executable -type f`
 
 for test in ${TESTS}; 
 do
-	${test}  >>test.log 
+	${test} -xml
 done;
 
