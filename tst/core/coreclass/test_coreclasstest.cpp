@@ -32,4 +32,4 @@ void Test_coreclassTest::test_fail()
 
 QTEST_APPLESS_MAIN(Test_coreclassTest)
 
-#include "tst_test_coreclasstest.moc"
+#include "test_coreclasstest.moc"

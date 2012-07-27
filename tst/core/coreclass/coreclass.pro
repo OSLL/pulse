@@ -8,14 +8,13 @@ QT       += testlib
 
 QT       -= gui
 
-TARGET = tst_test_coreclasstest
+TARGET = test_coreclasstest
 CONFIG   += console
 CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-
-SOURCES += tst_test_coreclasstest.cpp \
+SOURCES += test_coreclasstest.cpp \
     ../../../src/core/coreclass.cpp
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
 
