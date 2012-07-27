@@ -21,7 +21,7 @@ Test_coreclassTest::Test_coreclassTest()
 void Test_coreclassTest::test_versionMajor()
 {
     CoreClass cc;
-    QCOMPARE(cc.versionMajor(), 13);
+    QCOMPARE(cc.versionMajor(), 1883);
 }
 
 void Test_coreclassTest::test_fail()
