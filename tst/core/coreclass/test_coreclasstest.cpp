@@ -21,13 +21,13 @@ Test_coreclassTest::Test_coreclassTest()
 void Test_coreclassTest::test_versionMajor()
 {
     CoreClass cc;
-    QCOMPARE(cc.versionMajor(), 1883);
+    QCOMPARE(cc.versionMajor(), 13);
 }
 
 void Test_coreclassTest::test_fail()
 {
     CoreClass cc;
-    QCOMPARE(cc.versionMajor(), 13);
+    QCOMPARE(cc.versionMajor(), 1);
 }
 
 QTEST_APPLESS_MAIN(Test_coreclassTest)
